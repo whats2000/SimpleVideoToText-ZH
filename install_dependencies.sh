@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 確保在正確的conda環境中
-conda activate InformationRetrievalPython
+conda activate video-to-text
 
 # 安裝必要的庫
 pip install transformers torch soundfile
