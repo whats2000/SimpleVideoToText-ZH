@@ -1,0 +1,20 @@
+name: video-to-text
+channels:
+  - conda-forge
+  - huggingface
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch
+  - torchaudio
+  - numpy
+  - scipy
+  - pip:
+    - transformers
+    - soundfile
+    - librosa
+    - moviepy
+    - git+https://github.com/huggingface/transformers.git
+    - git+https://huggingface.co/BELLE-2/Belle-whisper-large-v3-turbo-zh
